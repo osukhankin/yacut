@@ -1,0 +1,9 @@
+import string
+
+SHORT_LENGTH_END = 16
+SHORT_LENGTH_START = 6
+ORIGINAL_LENGTH = 2000
+NUMBER_OF_ATTEMPTS = 3
+SHORT_SYMBOLS = string.ascii_letters + string.digits
+SHORT_PATTERN = f'^[{SHORT_SYMBOLS}]+$'
+REDIRECTION_VIEW = 'redirection_view'
